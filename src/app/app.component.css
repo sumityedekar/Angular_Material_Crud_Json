@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.header{
+    background-color: #2196f3;
+    color:#fff;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+table {
+    width: 100%;
+}
+table th{
+    background-color: #2196f3;
+    color: #fff;
+}
+th, td{
+    width: auto;
+}
+
+.seach{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+

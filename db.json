@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "department": "account",
+      "name": "Johnny",
+      "mobile": "7766554433",
+      "email": "john_doe@gmail.com",
+      "doj": "2022-05-15T09:00:00.000Z",
+      "gender": "male",
+      "salary": "62000",
+      "usercode": "uc3366",
+      "status": true,
+      "id": "3d4e"
+    },
+    {
+      "id": "7f6b",
+      "department": "hr",
+      "name": "Jane",
+      "mobile": "9988776655",
+      "email": "jane_smith@gmail.com",
+      "doj": "2023-02-20T09:00:00.000Z",
+      "gender": "female",
+      "salary": "55000",
+      "usercode": "uc5544",
+      "status": true
+    },
+    {
+      "id": "1a2b",
+      "department": "it",
+      "name": "Alex",
+      "mobile": "8899776655",
+      "email": "alex_green@gmail.com",
+      "doj": "2021-09-10T09:00:00.000Z",
+      "gender": "male",
+      "salary": "70000",
+      "usercode": "uc1122",
+      "status": true
+    },
+    {
+      "id": "9c8d",
+      "department": "account",
+      "name": "Emily",
+      "mobile": "6655443322",
+      "email": "emily_white@gmail.com",
+      "doj": "2022-11-05T09:00:00.000Z",
+      "gender": "female",
+      "salary": "60000",
+      "usercode": "uc7788",
+      "status": true
+    },
+    {
+      "id": "0a1b",
+      "department": "management",
+      "name": "Sarah",
+      "mobile": "4433221100",
+      "email": "sarah_adams@gmail.com",
+      "doj": "2022-07-25T09:00:00.000Z",
+      "gender": "female",
+      "salary": "58000",
+      "usercode": "uc2255",
+      "status": true
+    },
+    {
+      "id": "b2a1",
+      "department": "account",
+      "name": "Daniel",
+      "mobile": "3322110099",
+      "email": "daniel_carter@gmail.com",
+      "doj": "2023-01-15T09:00:00.000Z",
+      "gender": "male",
+      "salary": "62000",
+      "usercode": "uc6633",
+      "status": true
+    },
+    {
+      "id": "c3d4",
+      "department": "sales",
+      "name": "Sophia",
+      "mobile": "2211009988",
+      "email": "sophia_harris@gmail.com",
+      "doj": "2022-10-20T09:00:00.000Z",
+      "gender": "female",
+      "salary": "57000",
+      "usercode": "uc4477",
+      "status": true
+    },
+    {
+      "id": "e4f5",
+      "department": "sales",
+      "name": "William",
+      "mobile": "1100998877",
+      "email": "william_clark@gmail.com",
+      "doj": "2023-03-10T09:00:00.000Z",
+      "gender": "male",
+      "salary": "59000",
+      "usercode": "uc8811",
+      "status": true
+    },
+    {
+      "id": "a5b6",
+      "department": "hr",
+      "name": "Olivia",
+      "mobile": "9988776655",
+      "email": "olivia_wilson@gmail.com",
+      "doj": "2022-08-05T09:00:00.000Z",
+      "gender": "female",
+      "salary": "63000",
+      "usercode": "uc3366",
+      "status": true
+    },
+    {
+      "id": "d6e7",
+      "department": "it",
+      "name": "James",
+      "mobile": "8877665544",
+      "email": "james_anderson@gmail.com",
+      "doj": "2022-12-15T09:00:00.000Z",
+      "gender": "male",
+      "salary": "68000",
+      "usercode": "uc6677",
+      "status": true
+    },
+    {
+      "id": "f8g9",
+      "department": "account",
+      "name": "Ella",
+      "mobile": "7766554433",
+      "email": "ella_thompson@gmail.com",
+      "doj": "2023-06-20T09:00:00.000Z",
+      "gender": "female",
+      "salary": "60000",
+      "usercode": "uc3344",
+      "status": true
+    },
+    {
+      "id": "h0i1",
+      "department": "management",
+      "name": "Benjamin",
+      "mobile": "6655443322",
+      "email": "benjamin_evans@gmail.com",
+      "doj": "2022-09-25T09:00:00.000Z",
+      "gender": "male",
+      "salary": "64000",
+      "usercode": "uc5566",
+      "status": true
+    },
+    {
+      "id": "c89b",
+      "department": "accounts",
+      "name": "Lata",
+      "mobile": "9874562130",
+      "email": "lata@gmail.com",
+      "doj": "2024-03-01T18:30:00.000Z",
+      "gender": "female",
+      "salary": "52642",
+      "usercode": "uc8975",
+      "status": true
+    }
+  ]
+}

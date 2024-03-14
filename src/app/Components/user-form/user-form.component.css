@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+    gap: 10px;
+}
+.content{
+    padding-top: 10px;
+}
+.title{
+    background-color: #2196f3;
+    color:#fff;
+    font-family: fantasy;
+}
+.btn-cancel{
+    background-color: #e81515;
+    color: #fff;
+}
+.btn-save{
+    background-color: #2196f3;
+    color: #fff;
+}
+.mat-input{
+    width: 50%;
+}
+.action{
+    padding: 0 25px 20px;
+}
+.action button{
+    flex: 1;
+}
