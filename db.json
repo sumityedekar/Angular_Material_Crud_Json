@@ -49,18 +49,6 @@
       "status": true
     },
     {
-      "id": "0a1b",
-      "department": "management",
-      "name": "Sarah",
-      "mobile": "4433221100",
-      "email": "sarah_adams@gmail.com",
-      "doj": "2022-07-25T09:00:00.000Z",
-      "gender": "female",
-      "salary": "58000",
-      "usercode": "uc2255",
-      "status": true
-    },
-    {
       "id": "b2a1",
       "department": "account",
       "name": "Daniel",
@@ -106,18 +94,6 @@
       "gender": "female",
       "salary": "63000",
       "usercode": "uc3366",
-      "status": true
-    },
-    {
-      "id": "d6e7",
-      "department": "it",
-      "name": "James",
-      "mobile": "8877665544",
-      "email": "james_anderson@gmail.com",
-      "doj": "2022-12-15T09:00:00.000Z",
-      "gender": "male",
-      "salary": "68000",
-      "usercode": "uc6677",
       "status": true
     },
     {

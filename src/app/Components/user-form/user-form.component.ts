@@ -1,6 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { MatSnakBarService } from 'src/app/Services/mat-snak-bar.service';
 import { UserService } from 'src/app/Services/user.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class UserFormComponent {
   registerForm: FormGroup;
 
   constructor(private fb: FormBuilder, private userService:UserService, private  dialog: MatDialogRef<UserFormComponent>,
-    @Inject(MAT_DIALOG_DATA)public data:any
+    @Inject(MAT_DIALOG_DATA)public data:any, private snakBar:MatSnakBarService
     ){
 
     this.registerForm = this.fb.group({
@@ -37,12 +38,12 @@ export class UserFormComponent {
     if(this.registerForm.valid){
       if(this.data){
         this.userService.updateUser(this.data.id,this.registerForm.value).subscribe(res => {
-          alert("User updated successfully");
+          this.snakBar.openSnackBar('User updated successfully', 'Done');
           this.dialog.close(true);
         })
       }else{
         this.userService.addUser(this.registerForm.value).subscribe(res => {
-          alert("User added successfully");
+          this.snakBar.openSnackBar('User added successfully', 'Done');
           this.dialog.close(true);
         })
       }
